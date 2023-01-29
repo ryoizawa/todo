@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+
+input {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  margin-left: 4px;
+}
+
+button:hover {
+  background-color: pink;
+  color: #fff;
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  color: darkgray;
+  margin-top: 0px;
+  font-size: 25px;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 6px;
+}
